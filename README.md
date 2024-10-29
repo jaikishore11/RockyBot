@@ -18,12 +18,12 @@ RockyBot is a user-friendly news research tool designed for effortless informati
 1.Clone this repository to your local machine using:
 
 ```bash
-  git clone https://github.com/codebasics/langchain.git
+https://github.com/jaikishore11/RockyBot.git
 ```
 2.Navigate to the project directory:
 
 ```bash
-  cd 2_news_research_tool_project
+ main.py
 ```
 3. Install the required dependencies using pip:
 
@@ -54,11 +54,8 @@ streamlit run main.py
 - The embeddings will be stored and indexed using FAISS, enhancing retrieval speed.
 
 - The FAISS index will be saved in a local file path in pickle format for future use.
+- 
 - One can now ask a question and get the answer based on those news articles
-- In video tutorial, we used following news articles
-  - https://www.moneycontrol.com/news/business/tata-motors-mahindra-gain-certificates-for-production-linked-payouts-11281691.html
-  - https://www.moneycontrol.com/news/business/tata-motors-launches-punch-icng-price-starts-at-rs-7-1-lakh-11098751.html
-  - https://www.moneycontrol.com/news/business/stocks/buy-tata-motors-target-of-rs-743-kr-choksey-11080811.html
 
 ## Project Structure
 
